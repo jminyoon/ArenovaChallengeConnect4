@@ -1,0 +1,5 @@
+
+{
+  "runtime": "python313",
+  "entrypoint": "src/agent.py"
+}
