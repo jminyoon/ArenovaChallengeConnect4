@@ -1,6 +1,7 @@
 import json
 import os
 import urllib.request
+
 def ask_ai(system_prompt, user_data, max_tokens=1000):
     base_url = os.environ["OPENAI_BASE_URL"].rstrip("/")
     api_key = os.environ["OPENAI_API_KEY"]
